@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1{
+  font-size: 55px;
+  font-family: 'Carter One', cursive;
+  text-shadow: 0 5px 5px black;
+  color:blueviolet;
+}
+
+tr:hover{
+  cursor: pointer;
+}
+
+.primary-container{
+  background: linear-gradient(#e66465, #9198e5);
+}
+.container{
+  padding: 45px 55px;
+}
+
+.card, .welcomeMessage{
+  box-shadow: 0 5px 5px black;
+}
+.welcomeMessage{
+  font-size: 25px;
+  font-family: 'Carter One', cursive;
+  background-color: darkgray;
+  color: #ffff;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
+.form-text{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Yuji Mai', serif;
+  color:blueviolet;
+}
+
+.icon-img,.remove-img{
+  width: 20px;
+  height: 20px;
+}
+
+.remove-img{
+  padding: 25px 0;
+}
+
+
+.subBtn{
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  font-size: 20px;
+  font-family: 'Carter One', cursive;
+  color: #ffff;
+}
+
+/* Secondary Container */
+
+.filter-input{
+  padding: 15px 0;
+}
+
+.filter-input:hover{
+  border-color:darkgoldenrod;
+}
+
+.row-head{
+  font-size: 25px;
+  font-family: 'Carter One', cursive;
+  padding: 0 45px;
+}
+
+.tbl-data{
+  font-size: 30px;
+  font-family: 'Rampart One', cursive;
+}
+
+
